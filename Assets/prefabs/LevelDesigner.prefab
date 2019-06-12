@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &289441442975577498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 289441442975577496}
+  - component: {fileID: 289441442975577499}
+  m_Layer: 0
+  m_Name: LevelDesigner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &289441442975577496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289441442975577498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &289441442975577499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289441442975577498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39cc38e92d96bd34b85e180b64b36b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patternsPrefabs:
+  - {fileID: 8619074186818286849, guid: fdabf1c8a5121d54ba8a07729f417400, type: 3}
+  - {fileID: 1824964394519585210, guid: f66000c24c6dd8b44b6c2bc025c8bf29, type: 3}
+  - {fileID: 8956726572251455055, guid: f0afcb3fa807d5f4598ebcc929197e56, type: 3}
+  - {fileID: 3401757962476578406, guid: d1e85464fce710e4b8f644a64aa2ac4c, type: 3}
+  - {fileID: 245327864644793325, guid: 280e8ce8b69d39f43a2eb1887c501728, type: 3}
+  - {fileID: 6725304083362157885, guid: afc12cae1a4e99f4f97052616428e866, type: 3}
+  - {fileID: 7899724754530955055, guid: 974ad26fa4d78e34e9ddfd17383977e3, type: 3}
+  - {fileID: 4234624613205418209, guid: a29ccf828257ba7428240acb3a814ddc, type: 3}
+  - {fileID: 4988579921973491096, guid: 8428865850f904f4483ce0d2e0cff159, type: 3}
+  - {fileID: 7285150365259531225, guid: ac170c26861a44f49bf582e45367df1b, type: 3}
+  - {fileID: 8342041265703896044, guid: 5a03be982a260d346b8d738b38162864, type: 3}
+  - {fileID: 5600036003996311430, guid: 61682a976e2dbb149917f90b6b81dfc8, type: 3}
+  - {fileID: 3630036980305435986, guid: 7c33b342acfefa5409bb0bcfc810a5b5, type: 3}
+  - {fileID: 6137308168362755020, guid: f58e9b96b30735642b2a194de72832ff, type: 3}
+  - {fileID: 8914019858913090844, guid: d4deced38274a12439b33b35e25f575a, type: 3}
+  - {fileID: 3638453346907406575, guid: 6c0b28f19ef73b344b064f20e02af990, type: 3}
+  - {fileID: 4081882525534623915, guid: f80a0d5dd7f6d3947b17013a502d3fb9, type: 3}
+  - {fileID: 5586078255738229020, guid: d9f48cb93063d724d8a4cdfc58ee5efe, type: 3}
+  - {fileID: 2272885895489653604, guid: c238eed67fccb454089db1ea06fd3dd8, type: 3}
+  - {fileID: 2780046421007477464, guid: 62704639473fbad4083f167d93fff1b1, type: 3}
+  colorChangerPrefabs:
+  - {fileID: 3841008458379243698, guid: 78163ba8887a56e48b348ea54b0288dc, type: 3}
+  - {fileID: 5659099344072191555, guid: 0c178165ea59bb44b844da8a2d6d0d3b, type: 3}
+  - {fileID: 6772071288378303018, guid: e4e62c9c4cdbc4d409b452a4258de1c9, type: 3}
+  - {fileID: 6973155271073611730, guid: a5b7faa99f8365544a30a89ca8b6c94d, type: 3}
+  end: {fileID: 0}
+  lastLevelEnd: {fileID: 0}
+  booster: {fileID: 3791054100153803960, guid: 34c53b24c6b278b469d07612d7ca1b1a, type: 3}
+  Levels:
+  - levelNo: 1
+    patternSequence: 0,3,1,2,4,5,8,1,6,9
+    pencilSequence: 2,1,0,3,1
+    spawnGap: 10
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 2
+    patternSequence: 2,7,1,4,5,0,8,4,11,9
+    pencilSequence: 1,3,2,0,1
+    spawnGap: 10
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 3
+    patternSequence: 1,8,0,5,4,7,6,2,10,3
+    pencilSequence: 0,2,1,3,2
+    spawnGap: 10
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 4
+    patternSequence: 9,7,1,0,3,6,10,2,14,8
+    pencilSequence: 0,1,3,0,1
+    spawnGap: 10
+    applyBoosters: 1
+    removeAnimations: 1
+  - levelNo: 5
+    patternSequence: 8,7,11,12,2,4,15,6,11,1,19,0
+    pencilSequence: 1,2,0,3,1,2
+    spawnGap: 10
+    applyBoosters: 1
+    removeAnimations: 0
+  - levelNo: 6
+    patternSequence: 14,8,7,1,6,12,18,2,9,0,4,3
+    pencilSequence: 1,3,2,0,1,3
+    spawnGap: 10
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 7
+    patternSequence: 6,4,2,8,5,11,14,13,0,7,18,17
+    pencilSequence: 0,1,3,0,2,1
+    spawnGap: 10
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 8
+    patternSequence: 4,5,6,7,1,17,18,10,3,13,11,15
+    pencilSequence: 1,2,0,3,0,2
+    spawnGap: 10
+    applyBoosters: 1
+    removeAnimations: 1
+  - levelNo: 9
+    patternSequence: 1,0,2,3,4,6,7,8,9,10,11,12
+    pencilSequence: 3,1,2,0,1,4
+    spawnGap: 10
+    applyBoosters: 1
+    removeAnimations: 0
+  - levelNo: 10
+    patternSequence: 9,8,10,12,13,17,9,2,1,0,3,4
+    pencilSequence: 2,3,0,1,2,0
+    spawnGap: 8
+    applyBoosters: 0
+    removeAnimations: 0
+  - levelNo: 11
+    patternSequence: 4,15,16,0,7,5,9,1,10,11,18,14
+    pencilSequence: 3,0,1,2,1,3
+    spawnGap: 8
+    applyBoosters: 1
+    removeAnimations: 1
+  - levelNo: 12
+    patternSequence: 0,9,14,19,2,3,7,1,12,18,10,15
+    pencilSequence: 2,0,2,1,3,0
+    spawnGap: 8
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 13
+    patternSequence: 12,11,8,14,7,1,17,13,3,1,7,4
+    pencilSequence: 0,1,2,3,0,1
+    spawnGap: 8
+    applyBoosters: 0
+    removeAnimations: 0
+  - levelNo: 14
+    patternSequence: 5,0,19,10,15,0,4,14,2,16,11,1,2,14,15,16
+    pencilSequence: 2,1,0,3,1,0,2,1
+    spawnGap: 8
+    applyBoosters: 1
+    removeAnimations: 1
+  - levelNo: 15
+    patternSequence: 2,14,6,9,3,17,0,5,4,12,10,13,7,19,0,2
+    pencilSequence: 0,3,1,2,0,2,3,1
+    spawnGap: 8
+    applyBoosters: 1
+    removeAnimations: 0
+  - levelNo: 16
+    patternSequence: 11,12,13,9,5,6,8,0,10,4,5,19,17,3,1,6
+    pencilSequence: 1,2,0,3,2,1,2,3
+    spawnGap: 8
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 17
+    patternSequence: 18,16,12,13,4,1,7,5,9,10,16,11,8,19,2,3
+    pencilSequence: 3,0,2,1,0,3,1,2
+    spawnGap: 8
+    applyBoosters: 1
+    removeAnimations: 1
+  - levelNo: 18
+    patternSequence: 9,6,15,11,14,8,10,5,7,1,0,12,8,4,16,19
+    pencilSequence: 1,0,2,3,0,1,2,0
+    spawnGap: 8
+    applyBoosters: 0
+    removeAnimations: 0
+  - levelNo: 19
+    patternSequence: 6,17,5,12,10,11,1,5,3,12,8,15,0,7,16,2
+    pencilSequence: 2,3,0,1,3,2,0,1
+    spawnGap: 8
+    applyBoosters: 1
+    removeAnimations: 0
+  - levelNo: 20
+    patternSequence: 9,14,13,4,3,0,8,2,9,10,17,15,13,4,9,8
+    pencilSequence: 0,1,2,3,0,1,2,3
+    spawnGap: 8
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 21
+    patternSequence: 16,10,0,7,5,4,17,6,3,14,7,8,12,0,10,4
+    pencilSequence: 2,3,1,0,3,1,2,0
+    spawnGap: 7
+    applyBoosters: 1
+    removeAnimations: 0
+  - levelNo: 22
+    patternSequence: 0,3,5,7,9,10,13,0,15,17,19,20,13,4,12,7
+    pencilSequence: 1,0,3,1,2,0,2,3
+    spawnGap: 7
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 23
+    patternSequence: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+    pencilSequence: 2,3,0,1,3,1,2,1
+    spawnGap: 7
+    applyBoosters: 0
+    removeAnimations: 0
+  - levelNo: 24
+    patternSequence: 3,6,9,8,5,2,7,4,1,0,10,15,19,17,13
+    pencilSequence: 3,2,0,1,2,1,0,2
+    spawnGap: 7
+    applyBoosters: 1
+    removeAnimations: 0
+  - levelNo: 25
+    patternSequence: 17,18,19,14,12,11,13,16,0,11,15,2,3,0,1,9
+    pencilSequence: 2,3,1,0,3,1,2,0
+    spawnGap: 7
+    applyBoosters: 0
+    removeAnimations: 0
+  - levelNo: 26
+    patternSequence: 8,9,4,6,2,10,14,17,19,7,11,0,10,6,15,1
+    pencilSequence: 1,2,3,0,1,0,2,1
+    spawnGap: 7
+    applyBoosters: 0
+    removeAnimations: 1
+  - levelNo: 27
+    patternSequence: 16,10,0,7,5,4,17,6,3,14,7,8,12,0,10,4
+    pencilSequence: 2,3,1,0,3,1,2,0
+    spawnGap: 7
+    applyBoosters: 1
+    removeAnimations: 1
+  - levelNo: 28
+    patternSequence: 1,5,9,7,5,3,1,4,12,10,0,14,13,18,19,17
+    pencilSequence: 0,3,2,1,0,2,1,2
+    spawnGap: 7
+    applyBoosters: 1
+    removeAnimations: 0
+  - levelNo: 29
+    patternSequence: 6,10,0,6,5,1,7,16,13,4,17,8,12,0,11,5
+    pencilSequence: 2,3,1,0,3,1,2,0
+    spawnGap: 7
+    applyBoosters: 0
+    removeAnimations: 0
+  - levelNo: 30
+    patternSequence: 7,5,3,1,5,9,4,5,6,12,13,15,14,11,10,1
+    pencilSequence: 3,2,0,1,2,1,0,3
+    spawnGap: 7
+    applyBoosters: 1
+    removeAnimations: 1

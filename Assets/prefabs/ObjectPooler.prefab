@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1100706591818618066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1100706591818618068}
+  - component: {fileID: 1100706591818618069}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1100706591818618068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100706591818618066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1100706591818618069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100706591818618066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738ee31492b680e47bafc24f4572a18f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacleCount: 20
+  pools:
+  - tag: colorPencilEffect
+    prefab: {fileID: 165, guid: e1fbc1d768b377141a7dff15623ffc72, type: 3}
+    size: 1
+  - tag: starEffect
+    prefab: {fileID: 4091822846233241885, guid: b59d3e256e434e74ba7eb04afe984623,
+      type: 3}
+    size: 7
+  - tag: correctColorEffect
+    prefab: {fileID: 9097332607229831412, guid: 9e9f68853a7a6a34fa3c9896c471be19,
+      type: 3}
+    size: 5
+  - tag: colorChanger0
+    prefab: {fileID: 3841008458379243698, guid: 78163ba8887a56e48b348ea54b0288dc,
+      type: 3}
+    size: 4
+  - tag: colorChanger1
+    prefab: {fileID: 6973155271073611730, guid: a5b7faa99f8365544a30a89ca8b6c94d,
+      type: 3}
+    size: 4
+  - tag: colorChanger2
+    prefab: {fileID: 5659099344072191555, guid: 0c178165ea59bb44b844da8a2d6d0d3b,
+      type: 3}
+    size: 4
+  - tag: colorChanger3
+    prefab: {fileID: 6772071288378303018, guid: e4e62c9c4cdbc4d409b452a4258de1c9,
+      type: 3}
+    size: 4
+  - tag: colorChanger4
+    prefab: {fileID: 6772071288378303018, guid: e4e62c9c4cdbc4d409b452a4258de1c9,
+      type: 3}
+    size: 4
+  - tag: booster
+    prefab: {fileID: 3791054100153803960, guid: 34c53b24c6b278b469d07612d7ca1b1a,
+      type: 3}
+    size: 3
+  - tag: pattern1
+    prefab: {fileID: 8619074186818286849, guid: fdabf1c8a5121d54ba8a07729f417400,
+      type: 3}
+    size: 3
+  - tag: pattern2
+    prefab: {fileID: 1824964394519585210, guid: f66000c24c6dd8b44b6c2bc025c8bf29,
+      type: 3}
+    size: 3
+  - tag: pattern3
+    prefab: {fileID: 8956726572251455055, guid: f0afcb3fa807d5f4598ebcc929197e56,
+      type: 3}
+    size: 3
+  - tag: pattern4
+    prefab: {fileID: 3401757962476578406, guid: d1e85464fce710e4b8f644a64aa2ac4c,
+      type: 3}
+    size: 3
+  - tag: pattern5
+    prefab: {fileID: 245327864644793325, guid: 280e8ce8b69d39f43a2eb1887c501728, type: 3}
+    size: 3
+  - tag: pattern6
+    prefab: {fileID: 6725304083362157885, guid: afc12cae1a4e99f4f97052616428e866,
+      type: 3}
+    size: 3
+  - tag: pattern7
+    prefab: {fileID: 7899724754530955055, guid: 974ad26fa4d78e34e9ddfd17383977e3,
+      type: 3}
+    size: 3
+  - tag: pattern8
+    prefab: {fileID: 4234624613205418209, guid: a29ccf828257ba7428240acb3a814ddc,
+      type: 3}
+    size: 3
+  - tag: pattern9
+    prefab: {fileID: 4988579921973491096, guid: 8428865850f904f4483ce0d2e0cff159,
+      type: 3}
+    size: 3
+  - tag: pattern10
+    prefab: {fileID: 7285150365259531225, guid: ac170c26861a44f49bf582e45367df1b,
+      type: 3}
+    size: 3
+  - tag: pattern11
+    prefab: {fileID: 8342041265703896044, guid: 5a03be982a260d346b8d738b38162864,
+      type: 3}
+    size: 3
+  - tag: pattern12
+    prefab: {fileID: 5600036003996311430, guid: 61682a976e2dbb149917f90b6b81dfc8,
+      type: 3}
+    size: 3
+  - tag: pattern13
+    prefab: {fileID: 3630036980305435986, guid: 7c33b342acfefa5409bb0bcfc810a5b5,
+      type: 3}
+    size: 3
+  - tag: pattern14
+    prefab: {fileID: 6137308168362755020, guid: f58e9b96b30735642b2a194de72832ff,
+      type: 3}
+    size: 3
+  - tag: pattern15
+    prefab: {fileID: 8914019858913090844, guid: d4deced38274a12439b33b35e25f575a,
+      type: 3}
+    size: 3
+  - tag: pattern16
+    prefab: {fileID: 3638453346907406575, guid: 6c0b28f19ef73b344b064f20e02af990,
+      type: 3}
+    size: 3
+  - tag: pattern17
+    prefab: {fileID: 4081882525534623915, guid: f80a0d5dd7f6d3947b17013a502d3fb9,
+      type: 3}
+    size: 3
+  - tag: pattern18
+    prefab: {fileID: 5586078255738229020, guid: d9f48cb93063d724d8a4cdfc58ee5efe,
+      type: 3}
+    size: 3
+  - tag: pattern19
+    prefab: {fileID: 2272885895489653604, guid: c238eed67fccb454089db1ea06fd3dd8,
+      type: 3}
+    size: 3
+  - tag: pattern20
+    prefab: {fileID: 2780046421007477464, guid: 62704639473fbad4083f167d93fff1b1,
+      type: 3}
+    size: 3
